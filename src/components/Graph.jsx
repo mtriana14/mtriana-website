@@ -1,6 +1,8 @@
 import React, { Suspense } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useGLTF } from '@react-three/drei';
+const { Canvas } = await import('@react-three/fiber');
+const { OrbitControls,useGLTF } = await import('@react-three/drei');
+//import { Canvas } from await '@react-three/fiber';
+//import { OrbitControls, useGLTF } from '@react-three/drei';
 
 const LaptopModel = () => {
   return (
